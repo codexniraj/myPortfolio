@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="images/profile-pic (34).png">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hackathons">Hackathons</a></li>
+                    <li><a href="#portfolio">Connect </a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="name">
+                <div class="header-text">
+                    <p>Final Year Student || AWS Certified Solutions Architect - Associate|| Machine Learning Developer || Student at Vellore Institute of Technology</p>
+                    <h1>Hi, I'm <span>Niraj </span>Wani<br> An Engineer in making.! </h1>
+                </div>
+                <div class="header-image">
+                    <img src="/images/DSC_0320  mixing (1).jpg ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------------------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! <br> My name is Niraj Wani. I'm a 4th Year student from Vellore Institute of Technology, Bhopal pursuing my Undergraduate Bachelor’s degree in Computer Science Engineering. I’m on the lookout for an opportunity that’ll
+                        let me merge together. I am Passionate, versatile software developer with strong skills in Java, Python, SQL, AWS, and a knack for problem-solving and leadership
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('languages & technologies')">Languages & technologies</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('project work')">Project Work</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="languages & technologies">
+                        <ul>
+                            <li><span>Programming Languages</span><br> Java (advance) | Python (basic) | html(advance) | css(advance) | javascript(advance) | reactjs(basic) | Android Studies | C# .</li>
+                            <li><span>Operating System</span><br>Windows</li>
+                            <li><span>Database Systems</span><br> MySQL |FirebaseDB|AWS S3 </li>
+                            <li><span>Frameworks & Tools</span><br> Spring | VS code</li>
+                            <li><span>Others</span><br>Github</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Undergraduate (Pursuing) | Aug 2020 - June 2024 </span><br> Bhopal , Madhya Pradesh | Vellore Institute of Technology Bhopal <br> Current CGPA : 7.82 </li>
+                            <li><span> Higher Secondary Education | June 2019 - March 2020 </span><br>Jalgaon , Maharashtra |  Nutan Maratha Collage <br> Percentage: 69.54% </li>
+                            <li><span> Seconndary School Education | April 2017 - March 2018 </span><br> Jalgaon , Maharashtra | Podar International School <br> Percentage : 75.4% </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="project work">
+                        <ul>
+                            <li><span>Disease Prognostics</span><br> In this application user gives 7 symptoms and our application suggest what kind of disease the user can have by using machine learning.
+                            <br><a href="https://github.com/codexniraj/DiseasePrognostics">Link</a></li>
+                            <li><span>•	Divyang:-Voice Enabled Railway Reservation System</span><br>Empowered visually impaired individuals with a user-friendly, voice-controlled chatbot, utilizing ML and NLP, enabling effortless native language interactions for booking train tickets.
+                            <br><a href="https://codexniraj.github.io/RailwayReservationSystem/train-booking.html">Link</a></li>
+                            <li><span>Rural Development Game:</span><br>Here we created a Village using unity where we added villagers with different character and problem.
+                            <br><a href="https://github.com/codexniraj/Thriving_Villages">Link</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------hackathons------------------------------------------ -->
+    <div id="hackathons">
+        <div class="container">
+            <h1 class="sub-title">Hackathons</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>HACK Hackathon</h2>
+                    <h3>By GDSC <br></h3>
+                    <p> The Problem Statemnent was given on Android Developement track and the team needs to submit it within the given time period.</p>
+                </div>
+            </div>
+        </div>
+        <a href="https://leetcode.com/codexjarin/" target="_blank" class="btn">See More</a>
+    </div>
+
+
+
+
+    <!-- ------------------------------------my profiles--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Connect with me</h1>
+            <div class="connect-list">
+                <div class="work">
+                    <img src="/images/3.png">
+                    <div class="layer">
+                        <h3>Linked In</h3>
+                        <p>I am a CSE student and currently seeking new opportunities. I would love to connect myself and you with other professionals in Computer Science field</p>
+                        <a href="https://www.linkedin.com/in/nirajwani09/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/4.png">
+                    <div class="layer">
+                        <h3>Resume</h3>
+                        <p>I would love to talk about whether my technical skills might fit any of your openings</p>
+                        <a href="https://drive.google.com/file/d/16GQB5PdGYULCK3P_vQi203NOGzP5DplW/view?usp=sharing" download target="_blank"><i class="fa-solid fa-file"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="/images/5.png">
+                    <div class="layer">
+                        <h3>Github</h3>
+                        <p>Hey, Have a look on my project works on github and if you really like any project of mine ,then don't forget to follow me on Github for further updates related to my work </p>
+                        <a href="https://github.com/codexniraj" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------contact-------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> waniniraj2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8624066660</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Yash.Wani2002/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/niraj0910/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/NirajWani7?t=69OLQ_uk_j7RazC2X6C9VQ&s=08" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="e-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©Niraj. Made By <i class="fa-solid fa-chess-king"></i> Niraj Wani</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+
+</html>
